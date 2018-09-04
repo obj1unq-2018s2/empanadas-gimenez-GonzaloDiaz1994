@@ -44,9 +44,7 @@ object baigorria {
 	method sueldo() = cantidadEmpanadasVendidas * montoPorEmpanada
 
 	method cobrarSueldo() = self.sueldo() 
-	
-	method totalCobrado(){}
-	
+		
 }
 
 object galvan {
