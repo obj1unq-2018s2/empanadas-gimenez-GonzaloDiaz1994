@@ -16,7 +16,8 @@ object gimenez {
 		}
 	}
 	method totalCobrado(){return sueldoTotal}
-	
+
+	// TODO Hay un poco de lógica repetida entre cobrar y gastar, ¿cómo podría evitarse?	
 	method gastar(cuanto){
 		if ( cuanto > dinero ){
 			deuda+= cuanto - dinero
